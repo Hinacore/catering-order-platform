@@ -57,4 +57,6 @@ public class JwtTokenAdminInterceptor implements HandlerInterceptor {
             return false;
         }
     }
+  //TODO 清理线程本地数据ThreadLocal
+
 }
