@@ -7,3 +7,9 @@ sky:
     username: root
     password: 1234
 
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5t9uUz5N8A4WFKP29QRc
+    access-key-secret: 01qt7e8SqRtZrDo0UNpkFvnSzuxSx8
+    bucket-name: catering-platform
+
