@@ -19,12 +19,12 @@ module.exports = {
   },
   // 开启代理
   devServer: {
-    host:'0.0.0.0',
-    public: '0.0.0.0:8888', // 本地的ip:端口号
+    host: '0.0.0.0',
+    public: 'localhost:8888', // 客户端连接地址，应为localhost而非0.0.0.0
     port: 8888,
     open: true,
-    disableHostCheck:true,
-    hot:true,//自动保存
+    disableHostCheck: true,
+    hot: true, // 自动保存
     overlay: {
       warnings: false,
       errors: true
