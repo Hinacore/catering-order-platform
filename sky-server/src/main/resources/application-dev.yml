@@ -22,5 +22,16 @@ sky:
   wechat:
     appid: wx6e64383278a3cac0
     secret: 2dec6497d3bad40e38ebe8e8216fddd7
+    mchid: #商户号
+    mch-serial-no: #商户API证书的证书序列号
+    private-key-file-path: #商户API证书的私钥文件路径
+    api-v3-key: #商户API证书的V3密钥
+    we-chat-pay-cert-file-path: #平台证书文件路径，用于验证微信支付返回的签名是否正确
+    notify-url: #支付成功的回调地址
+    refund-notify-url: #退款成功的回调地址
+  shop:
+    address: 北京市海淀区上地十街10号
+  baidu:
+    ak: 1Y3mAnfrS1UdvhYPAp2BfxV3QNYGStup
 
 
