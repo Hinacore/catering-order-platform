@@ -1,0 +1,47 @@
+# ============================================
+# 开发环境配置文件模板
+# 使用方式：复制此文件为 application-dev.yml 并填入真实值
+# cp application-dev.yml.example application-dev.yml
+# ============================================
+
+sky:
+  jwt:
+    admin-secret-key: your-admin-secret-key
+    user-secret-key: your-user-secret-key
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: your-db-username
+    password: your-db-password
+
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: your-aliyun-access-key-id
+    access-key-secret: your-aliyun-access-key-secret
+    bucket-name: your-bucket-name
+
+  redis:
+    host: localhost
+    port: 6379
+    password: your-redis-password
+    database: 0
+
+  wechat:
+    appid: your-wechat-appid
+    secret: your-wechat-secret
+    mchid: your-mchid
+    mch-serial-no: your-mch-serial-no
+    private-key-file-path: your-private-key-file-path
+    api-v3-key: your-api-v3-key
+    we-chat-pay-cert-file-path: your-wechat-pay-cert-file-path
+    notify-url: your-notify-url
+    refund-notify-url: your-refund-notify-url
+
+  shop:
+    address: your-shop-address
+
+  baidu:
+    ak: your-baidu-ak
